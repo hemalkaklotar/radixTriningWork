@@ -1,2 +1,3 @@
 # radixTriningWork
 Making some changes.
+this is first step toward programming...
