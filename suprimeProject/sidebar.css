@@ -1,5 +1,31 @@
 .sidebar{
-       width: 320px;
+       width: 380px;
        height: 100%;
+       z-index: 14;
+       padding: 6% 12px 0 12px;
+}
+.sidebar ul{
+       width: 100%;
+       color: rgb(51, 51, 51);
+       list-style: none;
+}
+.sidebar ul li span{
+       display: block;
+       padding: 16px 22px;
+       margin: 8px 0;
+       background-color: rgb(237, 237, 237);
+       border-radius: 8px;
+       font-size: 17px;
+       letter-spacing: 1px;
+}
+.sidebar ul li ul li ul{
        border: 1px solid black;
+       /* display: none; */
+}
+.sidebar ul li ul{
+       width: calc(100% - 12px);
+       margin: 0 0 0 12px;
+}
+.show{
+       display: none;
 }

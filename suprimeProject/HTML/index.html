@@ -6,6 +6,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="../style.css">
        <link rel="stylesheet" href="../sidebar.css">
+      <script src="../../suprimeProject/script.js"></script>
        <title>Document</title>
 </head>
 <body>
@@ -24,13 +25,35 @@
        <div class="section-main">
               <div class="sidebar">
                      <ul>
-                            <li><a href="./day1/index.html">day 1</a></li>
-                            <li><a href="">day 2</a></li>
+                            <li><span>Day 1</span>
+                            </li>
+                            <li onclick="showTabsWorkType('#list-days')"><span>Day 3</span>
+                                   <ul id="list-days">
+                                          <li onclick="showTabsAssignment('#list-assignments')">
+                                                 <span>Assignments</span>
+                                                 <ul class="list-assignments" id="list-assignments">
+                                                        <li><span>Assignment 1 </span></li>
+                                                        <li><span> Assignment 2</span></li>
+                                                        <li><span> Assignment 3</span></li>
+                                                 </ul>
+                                          </li>
+                                          <li> 
+                                                 <span> Practices </span>
+                                          <ul>
+                                                 <li><span> practices 1</span></li>
+                                                 <li><span> practices 2</span></li>
+                                                 <li><span> practices 3</span></li>
+
+                                          </ul>
+                                          </li>
+                                   </ul>
+                            </li>
+                           
 
                      </ul>
               </div>
               <div class="main-content-view">
-                     hello
+                     
               </div>
        </div>
 </body>
