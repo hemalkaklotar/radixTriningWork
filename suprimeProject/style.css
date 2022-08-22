@@ -16,6 +16,9 @@ body{
        width: 100%;
 }
 nav{
+       position: sticky;
+       top: 0;
+       width: 100%;
        padding: 0.7rem 1.3rem;
        display: flex;
        justify-content: space-between;
@@ -35,25 +38,29 @@ nav .logo img{
 
 }
 .nav-Links ul li{
-       margin-left: 14px;
-       font-size: 18px;
-}
-.nav-Links ul li:hover{
        background-color: #a41bff;
        margin-left: 14px;
+       font-size: 18px;
        border-radius: 8px;
+}
+.nav-Links ul li:hover{ 
+       background-color: rgb(237, 237, 237);
+       margin-left: 14px;
        box-shadow: 8px 12px 14px rgb(225, 225, 225);
        font-size: 18px;
        transition: 0.3s ease-in;
 }
+.list-day-works li a{
+ text-decoration: none;
+}
 .nav-Links ul li a{
        display: block;
-       color: #5f5f5f;
+       color: #ffffff;
        padding: 8px 22px;
        text-decoration: none;
 }
 .nav-Links ul li:hover a{
-       color: #fff;
+       color: rgb(56, 56, 56);
 }
 .section-main1{
        width: 100%;
@@ -69,17 +76,44 @@ nav .logo img{
 }
 .section-main{
        width: 100%;
-       height: calc(100vh - 102px);
+       min-height: calc(100vh - 102px);
        display: flex;
        justify-content: space-between;
        background-color: rgb(245, 245, 245);
 }
 
 .main-content-view{
-       border: 1px solid red;
        width: 100%;
+       margin-left: 380px;
+       padding: 0 1.1rem;
        height: 100%;
 }
-.show{
+.sidebar ul li ul li ul{
        display: none;
+}
+.list-day-works{
+       display: none;
+}
+.hideWorkSkeleton{
+       display: block !important;
+}
+.hide{
+       display: block !important;
+}
+@media only screen and (max-width: 768px) {
+       .section-main{
+              width: 100%;
+              height: calc(100vh - 102px);
+              display: flex;
+              flex-direction: column !important;
+              justify-content: space-between;
+              background-color: rgb(245, 245, 245);
+       }
+       .main-content-view{
+              border: 1px solid red;
+              width: 100%;
+              margin-left: 0;
+              padding: 0;
+
+       }
 }

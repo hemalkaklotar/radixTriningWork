@@ -6,7 +6,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet" href="../style.css">
        <link rel="stylesheet" href="../sidebar.css">
-      <script src="../../suprimeProject/script.js"></script>
+      <script src="../script.js"></script>
        <title>Document</title>
 </head>
 <body>
@@ -27,19 +27,19 @@
                      <ul>
                             <li><span>Day 1</span>
                             </li>
-                            <li onclick="showTabsWorkType('#list-days')"><span>Day 3</span>
-                                    <ul id="list-days">
-                                          <li onclick="showTabsAssignment('#list-assignments')">
+                            <li onclick="myFunction('#list-day-works')"><span>Day 3</span>
+                                    <ul class="list-day-works" id="list-day-works">
+                                          <li onclick="myFunction('#list-assignments')">
                                                  <span>Assignments</span>
-                                                 <ul class="list-assignments" id="list-assignments">
+                                                 <ul id="list-assignments">
                                                         <li><span>Assignment 1 </span></li>
                                                         <li><span> Assignment 2</span></li>
                                                         <li><span> Assignment 3</span></li>
                                                  </ul>
                                           </li>
-                                          <li> 
+                                          <li onclick="myFunction('#list-practices')"> 
                                                  <span> Practices </span>
-                                          <ul>
+                                          <ul id="list-practices">
                                                  <li><span> practices 1</span></li>
                                                  <li><span> practices 2</span></li>
                                                  <li><span> practices 3</span></li>
