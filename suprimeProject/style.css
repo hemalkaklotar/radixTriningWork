@@ -25,6 +25,7 @@ nav{
        align-items: center;
        background-color: rgb(245, 245, 245);
        border-radius: 0 0 16px 16px;
+       z-index: 9999;
 }
 nav .logo{
        width: 65px;
@@ -85,7 +86,7 @@ nav .logo img{
 .main-content-view{
        width: 100%;
        margin-left: 380px;
-       padding: 0 1.1rem;
+       padding: 0 0.4rem;
        height: 100%;
 }
 .sidebar ul li ul li ul{
@@ -103,14 +104,30 @@ nav .logo img{
 @media only screen and (max-width: 768px) {
        .section-main{
               width: 100%;
-              height: calc(100vh - 102px);
+              min-height: calc(100vh - 102px);
               display: flex;
               flex-direction: column !important;
               justify-content: space-between;
               background-color: rgb(245, 245, 245);
        }
        .main-content-view{
-              border: 1px solid red;
+              width: 100%;
+              margin-left: 0;
+              padding: 0;
+
+       }
+}
+@media only screen and (max-width: 1024px) {
+       .section-main-special-case{
+              border:1px solid black;
+              width: 100%;
+              min-height: calc(100vh - 102px);
+              display: flex;
+              flex-direction: column !important;
+              justify-content: space-between;
+              background-color: rgb(245, 245, 245);
+       }
+       .main-content-view{
               width: 100%;
               margin-left: 0;
               padding: 0;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
        <meta charset="UTF-8">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,102 @@
        <link rel="stylesheet" href="../../../../style.css">
        <link rel="stylesheet" href="../../../../sidebar.css">
        <link rel="stylesheet" href="./style.css">
-      <script src="../../../../script.js"></script>
+       <script src="../../../../script.js"></script>
        <title>Document</title>
 </head>
+
 <body>
        <nav>
               <div class="logo">
                      <img src="../../../../img/logo.png" alt="">
-                     
+
               </div>
               <div class="nav-Links">
                      <ul>
-                            <li><a href="../index.html"> Home </a></li>
-                            <li><a href=""> HTML </a></li>
-                            <li><a href=""> CSS </a></li>
+                            <li><a href="../../../../index.html"> Home </a></li>
+                            <li><a href="../../../../HTML/index.html"> HTML </a></li>
+                            <li><a href="../../../../CSS/index.html"> CSS </a></li>
                      </ul>
               </div>
        </nav>
        <div class="section-main">
               <div class="sidebar">
                      <ul>
-                            <li><span>Day 1</span></li>
-                            <li><span>Day 2</span></li>
+                            <li onclick="myFunction('#list-day-works-1')"><span>Day 1</span>
+                                   <ul class="list-day-works" id="list-day-works-1">
+                                          <li class="tab-assignment"><a
+                                                        href="../../../day1/assignments/assignment1/index.html"> <span>
+                                                               Assignment 1 </span></a></li>
+                                          <li class="tab-practices"><a
+                                                        href="../../../day1/practices/practices1/index.html"><span>
+                                                               practices 1</span></a></li>
+                                          <li class="tab-practices"><a
+                                                        href="../../../day1/practices/practices2/index.html"><span>
+                                                               practices 2</span></a></li>
+                                          <li class="tab-practices"><a
+                                                        href="../../../day1/practices/practices3/index.html"><span>
+                                                               practices 3</span></a></li>
+                                   </ul>
+                            </li>
+                            <li onclick="myFunction('#list-day-works-2')"><span>Day 2</span>
+                                   <ul class="list-day-works" id="list-day-works-2">
+                                          <li class="tab-practices"><a
+                                                        href="../../../day2/practices/practices1/index.html"><span>
+                                                               practices 1</span></a></li>
+                                          <li class="tab-practices"><a
+                                                        href="../../../day2/practices/practices2/index.html"><span>
+                                                               practices 2</span></a></li>
+                                          <li class="tab-practices"><a
+                                                        href="../../../day2/practices/practices3/index.html"><span>
+                                                               practices 3</span></a></li>
+                                   </ul>
+                            </li>
                             <li onclick="myFunction('#list-day-works-3')"><span>Day 3</span>
                                    <ul class="list-day-works" id="list-day-works-3">
-                                                       <li class="tab-assignment" ><a href=""> <span> Assignment 1 </span></a></li>
-                                                       <li class="tab-practices"><a href="../practices1/index.html"><span> practices 1</a></span></li>
-                                                       <li class="tab-practices"><a href="../practices2/index.html"><span> practices 2</a></span></li>
-                                                       <li class="tab-practices"><a href="../practices3/index.html"><span> practices 3</a></span></li>
-                                                       <li class="tab-practices"><a href="../practices4/index.html"><span> practices 4</a></span></li>
-                                                       <li class="tab-practices"><a href="../practices5/index.html"><span> practices 5</a></span></li>
-                                                       <li class="tab-practices"><a href="../practices6/index.html"><span> practices 6</a></span></li>                                                             
-                                  </ul>
-                           </li> 
+                                          <li class="tab-assignment"><a href=""> <span> Assignment 1 </span></a></li>
+                                          <li class="tab-practices"><a href="../practices1/index.html"><span> practices
+                                                               1</span></a></li>
+                                          <li class="tab-practices"><a href="../practices2/index.html"><span> practices
+                                                               2</span></a></li>
+                                          <li class="tab-practices"><a href="../practices3/index.html"><span> practices
+                                                               3</span></a></li>
+                                          <li class="tab-practices"><a href="../practices4/index.html"><span> practices
+                                                               4</span></a></li>
+                                          <li class="tab-practices"><a href="../practices5/index.html"><span> practices
+                                                               5</span></a></li>
+                                          <li class="tab-practices"><a href="../practices6/index.html"><span> practices
+                                                               6</span></a></li>
+                                   </ul>
+                            </li>
 
                             <li onclick="myFunction('#list-day-works-4')"><span>Day 4</span>
                                    <ul class="list-day-works" id="list-day-works-4">
-                                                       <li class="tab-assignment" ><a href="../../assignments/assignment1/index.html"> <span> Assignment 1 </span></a></li>
-                                                       <li class="tab-practices"><a href="../practices2/index.html"><span> practices 2</a></span></li>
-                                                       <li class="tab-practices"><a href="../practices3/index.html"><span> practices 3</a></span></li>
-                                                       <li class="tab-practices"><span> practices 4</span></li>
-                                  </ul>
-                           </li>
-                            <li><span>Day 5</span></li>
+                                          <li class="tab-assignment"><a href="../../assignments/assignment1/index.html">
+                                                        <span> Assignment 1 </span></a></li>
+                                          <li class="tab-practices"><a href="../practices2/index.html"><span> practices
+                                                               2</span></a></li>
+                                          <li class="tab-practices"><a href="../practices3/index.html"><span> practices
+                                                               3</span></a></li>
+                                          <li class="tab-practices"><span> practices 4</span></li>
+                                   </ul>
+                            </li>
+                            <li onclick="myFunction('#list-day-works-5')"><span>Day 5</span>
+                                   <ul class="list-day-works" id="list-day-works-5">
+                                          <li class="tab-assignment"><a target="_blank"
+                                                        href="../../../day5/assignments/assignment1/index.html"> <span>
+                                                               Assignment 1 </span></a></li>
+
+                                   </ul>
+                            </li>
                      </ul>
               </div>
               <div class="main-content-view">
                      <div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua.
-                          </div>
+                     </div>
+              </div>
        </div>
 </body>
+
 </html>
