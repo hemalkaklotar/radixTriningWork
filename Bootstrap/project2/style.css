@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  min-height: 750px;
+  height: 85vh;
+  max-height: 980px;
+  background-image: linear-gradient(45deg, rgba(4, 141, 175, 0.719), rgba(7, 109, 204, 0.671)), url('images/back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.form-area{
+  background:#252525;
+}
+.bg-primary{
+  background-color: rgba(4, 141, 175, 0.719) !important;
+}
+@media only screen and (max-width:768px){
+  .header {
+    min-height: 750px;
+    height: 66vh;
+
+  }
+}

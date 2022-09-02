@@ -1,0 +1,13 @@
+.nav-link:hover {
+background-color: rgba(61, 61, 61, 0.685);
+}
+.dropdown-item{
+  background-color:#212529 !important;
+}
+.dropdown-item:hover{
+background-color:rgba(36, 35, 35, 0.911) !important;
+}
+.bg-primary-violate{
+  background-color: #8243ff !important;
+}
+/* 742eff */

@@ -1,0 +1,34 @@
+.example {
+       padding: 20px;
+       color: white;
+     }
+     @media only screen and (max-width: 600px) {
+       .example {
+         display: none;
+       }
+     }
+     
+     @media only screen and (min-width: 600px) {
+       .example {
+         background: #008000;
+       }
+     }
+     
+     @media only screen and (min-width: 768px) {
+       .example {
+         background: #0000ff;
+       }
+     }
+     
+     @media only screen and (min-width: 992px) {
+       .example {
+         background: #ffa500;
+       }
+     }
+     
+     @media only screen and (min-width: 1200px) {
+       .example {
+         background: #ff8a9e;
+       }
+     }
+     

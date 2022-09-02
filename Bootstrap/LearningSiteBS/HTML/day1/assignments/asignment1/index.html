@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="../../../../style.css">
+       <link rel="stylesheet" href="../../../../sidebar.css">
+       <link rel="stylesheet" href="./style.css">
+       <script src="../../../../script.js"></script>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+              crossorigin="anonymous">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+              integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <title>Document</title>
+</head>
+
+<body>
+       <div class="container-fluid">
+              <div class="container-xxl">
+                     <!-- my future code will goes here -->
+                     <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                   <div class="logo">
+                                          <img src="../../../../img/logo.png" alt="">
+                                   </div>
+                                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                          aria-expanded="false" aria-label="Toggle navigation">
+                                          <span class="navbar-toggler-icon"></span>
+                                   </button>
+                                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                          <div class="ms-auto navbar-nav">
+                                                 <a class="nav-link d-inline-block py-2 px-3 m-1 bg-secondary text-white rounded mx-2 "
+                                                        aria-current="page" href="../index.html">Home</a>
+                                                 <a class="nav-link d-inline-block py-2 px-3 m-1 active text-white rounded mx-2"
+                                                        href="../../../../HTML/index.html">HTML</a>
+                                                 <a class="nav-link d-inline-block py-2 px-3 m-1  bg-secondary text-white rounded mx-2"
+                                                        href="../../../../CSS/index.html">CSS</a>
+                                          </div>
+                                   </div>
+                            </div>
+                     </nav>
+                     <div class="section-main position-relative">
+                            <div class="side-action">
+                                   <button class="navbar-toggler fs-1 pt-3 ps-3" type="button"
+                                          data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                                          <div class="position-absolute start-0 top-0">
+                                                 <i class="fa fa-exchange text-secondary" aria-hidden="true"></i>
+                                          </div>
+                                   </button>
+                            </div>
+                            <div class="offcanvas position-absolute offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                   aria-labelledby="offcanvasExampleLabel">
+                                   <div class="offcanvas-header">
+                                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Choose work day..</h5>
+                                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                                 aria-label="Close"></button>
+                                   </div>
+                                   <div class="offcanvas-body">
+                                          <div class="sidebar">
+                                                 <ul>
+                                                        <li class="d-block py-2 px-3 bg-secondary rounded text-white my-2"
+                                                               type="button" data-bs-toggle="collapse"
+                                                               data-bs-target="#list-day-works-html-1">
+                                                               <span>Day 1</span>
+                                                        </li>
+                                                        <li class="list-unstyled">
+                                                               <ul class="collapse" id="list-day-works-html-1">
+                                                                      <li
+                                                                             class="d-block py-2 px-3 m-1 bg-lighter rounded ">
+                                                                             <a class="text-decoration-none"
+                                                                                    href="../../assignments/asignment1/index.html">
+                                                                                    <span>
+                                                                                           Assignment 1 </span></a>
+                                                                      </li>
+                                                                      <li
+                                                                             class="d-block py-2 px-3 m-1 bg-lighter rounded ">
+                                                                             <a class="text-decoration-none"
+                                                                                    href="../../practices/practices1/index.html"><span>
+                                                                                           practices 1</span></a>
+                                                                      </li>
+                                                                      <li
+                                                                             class="d-block py-2 px-3 m-1 bg-lighter rounded ">
+                                                                             <a class="text-decoration-none"
+                                                                                    href="../../practices/practices2/index.html"><span>
+                                                                                           practices 2</span></a>
+                                                                      </li>
+                                                               </ul>
+                                                        </li>
+                                                        <li class="d-block py-2 px-3 bg-secondary rounded text-white my-2"
+                                                               type="button" data-bs-toggle="collapse"
+                                                               data-bs-target="#list-day-works-html-2"><span>Day
+                                                                      2</span>
+                                                        </li>
+                                                        <li class="list-unstyled">
+                                                               <ul class="collapse" id="list-day-works-html-2">
+                                                                      <li
+                                                                             class="d-block py-2 px-3 m-1 bg-lighter rounded">
+                                                                             <a class="text-decoration-none"
+                                                                                    href="../../../day2/assignments/assignment1/index.html">
+                                                                                    <span>
+                                                                                           Assignment 1 </span></a>
+                                                                      </li>
+                                                               </ul>
+                                                        </li>
+
+                                                 </ul>
+                                          </div>
+                                   </div>
+
+                            </div>
+                            <!-- content comes up here -->
+                            <div class="main-content-view">
+                                   <div class="main">
+                                          <div class="wrapper">
+                                                 <div class="form">
+                                                        <h1>Registration...</h1>
+                                                        <form action="">
+
+                                                               <label for="empName">Employee Name</label>
+                                                               <input type="text" id="empName" name="empName"
+                                                                      placeholder="Employee name" required>
+
+                                                               <label for="empAge">Age</label>
+                                                               <input type="number" id="empAge" name="empAge"
+                                                                      placeholder="Employee Age" required>
+
+                                                               <label for="">Gender:</label>
+                                                               <div class="radio-grp">
+                                                                      <input type="radio" id="male" name="gender"
+                                                                             value="Male" required>
+                                                                      <label for="male">Male</label>
+                                                                      <input type="radio" id="female" name="gender"
+                                                                             value="female">
+                                                                      <label for="female">Female</label>
+                                                                      <input type="radio" id="other" name="gender"
+                                                                             value="other">
+                                                                      <label for="other">other</label>
+                                                               </div>
+
+                                                               <label for="empName">Designation</label>
+                                                               <input type="text" id="empDesignation"
+                                                                      name="empDesignation" placeholder="Designation"
+                                                                      required>
+
+                                                               <label for="empAge">salary</label>
+                                                               <input type="number" id="empSalary" name="empSalary"
+                                                                      placeholder="Employee salary" required>
+
+                                                               <label for="location">Location</label>
+
+                                                               <select name="location" id="location">
+                                                                      <option value="Andhra Pradesh">Andhra Pradesh
+                                                                      </option>
+                                                                      <option value="Bihar">Bihar</option>
+                                                                      <option value="Gujrat">Gujrat</option>
+                                                                      <option value="Goa">Goa</option>
+                                                                      <option value="Maharastra">Maharastra</option>
+                                                                      <option value="Odisa">Odisa</option>
+                                                                      <option value="Rajsthan">Rajsthan</option>
+                                                               </select>
+
+                                                               <label for="empEmail">E-mail ID</label>
+                                                               <input type="email" id="empEmail" name="empEmail"
+                                                                      placeholder="Email ID" required>
+
+                                                               <label for="empContact">Contact number</label>
+                                                               <input type="tel" id="empContact" name="empContact"
+                                                                      placeholder="Contact number"
+                                                                      pattern=" /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/"
+                                                                      required>
+
+                                                               <label for="empDoj">Date of Joining</label>
+                                                               <input type="Date" id="empdoj" name="empdoj"
+                                                                      placeholder="Date of joining" required>
+
+                                                               <input type="submit" value="Submit">
+                                                        </form>
+                                                 </div>
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+
+              </div>
+       </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+              crossorigin="anonymous"></script>
+</body>
+
+</html>
