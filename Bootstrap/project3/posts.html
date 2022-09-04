@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- navbar code -->
+        <div class="container-fluid bg-dark">
+            <div class="container-xxl">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand fs-4 text-light" href="#">BloGen</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup">
+                        <div class="action d-block" style="width: 30px;">
+                            <span class="d-block bg-light" style="height: 3px;"></span>
+                            <span class="d-block bg-light" style="height: 3px; margin: 8px 0;"></span>
+                            <span class="d-block bg-light" style="height: 3px;"></span>
+    
+                        </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class=" w-100 navbar-nav ms-4 ">
+                            <a class="nav-link text-light  ps-3 mt-2 mt-md-0 mx-0 mx-lg-2 rounded" href="./index.html">Dashboard</a>
+                            <a class="nav-link text-light  ps-3 mt-2 mt-md-0 mx-0 mx-lg-2 rounded" href="./posts.html">Posts</a>
+                            <a class="nav-link text-light  ps-3 mt-2 mt-md-0 mx-0 mx-lg-2 rounded" href="./categories.html">Categories</a>
+                            <a class="nav-link text-light  ps-3 mt-2 mt-md-0 mx-0 rounded" href="./users.html">Users</a>
+                            <div class="navbar-nav ms-lg-auto">
+                                <div class="dropdown">
+                                    <a class=" dropdown-toggle  nav-link text-light ps-3 mt-2 mt-md-0 mx-0 mx-lg-2 rounded"
+                                        type="button" data-bs-toggle="dropdown">
+                                        <i class="fa fa-user me-2" aria-hidden="true"></i> Welcome Back Hemal
+                                    </a>
+                                    <ul class="dropdown-menu  mt-2 p-0 rounded border-0  w-100">
+                                        <li><a class="dropdown-item  text-light" href="./profile.html">profile</a></li>
+                                        <li><a class="dropdown-item text-light" href="#">setting</a></li>
+                                    </ul>
+                                </div>
+    
+                                <a class="nav-link text-light  ps-3 mt-2 mt-md-0 mx-0 mx-lg-2 rounded">
+                                    <i class="fa fa-sign-out me-2" aria-hidden="true"></i>Log out
+                                </a>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Posts title code -->
+        <div class="container-fluid bg-primary-blue py-3">
+            <div class="container-xxl d-flex align-items-center">
+                <i class="fa fa-pencil text-light fs-4 me-4" aria-hidden="true"></i> <span class="fs-3 fw-bold text-light">
+                    Posts
+                </span>
+            </div>
+        </div>
+            <!-- Actions -->
+            <section id="action" class="py-4 mb-4 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ms-auto">
+                            <div class="input-group">
+                                <input type="text" class="form-control me-4" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn bg-primary-blue text-light">Search</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+             <!-- posts -->
+    
+             <div class="container-fluid">
+                <div class="container-xxl">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Latest Posts </h4>
+                                </div>
+                                <table class="table table-striped table-hover">
+                                    <thead class="thead-inverse ">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Category</th>
+                                            <th>Date Posted</th>
+                                        </tr>
+                                    </thead>
+                                   <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Web Development</td>
+                                        <td>feb 1, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Finance & Accounting</td>
+                                        <td>feb 12, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Office Productivity</td>
+                                        <td>feb 25, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>PhotoGraphy And Video Editing</td>
+                                        <td>March 4, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Helth And Fitness </td>
+                                        <td>March 6, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Teaching And Academics </td>
+                                        <td>March 28, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Business</td>
+                                        <td>April 12, 2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Marketing</td>
+                                        <td>April 17, 2022</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>9</td>
+                                        <td>IT & Software</td>
+                                        <td>April 22, 2022</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>10</td>
+                                        <td>AI / ML </td>
+                                        <td>MAY8, 2022</td>
+                                    </tr>
+                                    
+                                   </tbody>
+                                </table>
+                                <nav class="ms-4" aria-label="Site menu">
+                                    <ul class="pagination">
+                                        <li class="page-item disabled">
+                                            <a href="#" class="page-link">Previous</a>
+                                        </li>
+                                        <li class="page-item active">
+                                            <a href="#" class="page-link">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a href="#" class="page-link">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+<footer class="bg-dark py-3 text-light text-center mt-5">All rights are reserved by Hemal kalotar Copyright © 2022 </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+</html>
