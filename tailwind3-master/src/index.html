@@ -6,44 +6,484 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TailwindDemo</title>
     <link rel="stylesheet" href="../dist/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </head>
 
 <body>
-    <div class="container border-2 border-red-600 px-3">
-        <nav class="relative ">
-            <div class="img-box w-72 mx-auto">
-                <img src="../assets/images/logo.png" class="w-100" alt="">
-            </div>
-            <div class="absolute  inset-y-1/4">
-                <img src="../assets/images/hamburger-menu.svg" class="" alt="">
-            </div>
-        </nav>
-        <div class="py-12 md:py-24">
-            <div class=" snap-x flex overflow-y-auto gap-5 md:justify-around">
-                <div class="snap-center img-box flex-shrink-0 max-w-[85vw]  ">
-                    <img src="../assets/images/haus-img-1.jpg" class="w-full rounded-xl" alt="">
+    <div class="container-fluid bg-teal-50">
+        <div class="container mx-auto  px-1 bg-teal-50">
+            <nav class="relative ">
+                <div class="img-box w-72 mx-auto">
+                    <img src="../assets/images/logo.png" class="w-100" alt="">
                 </div>
-                <div class="snap-center img-box flex-shrink-0 max-w-[85vw] xl:-translate-y-16 border-2 border-red-800">
-                    <img src="../assets/images/haus-img-2.jpg" class="w-full  rounded-xl" alt="">
+                <div class="absolute  inset-y-1/4">
+                    <img src="../assets/images/hamburger-menu.svg" class="" alt="">
                 </div>
-                <div class="snap-center img-box  flex-shrink-0 max-w-[85vw] ">
-                    <img src="../assets/images/haus-img-3.jpg" class="w-full rounded-xl" alt="">
+            </nav>
+            <div class="">
+                <div class="snap-x flex overflow-y-auto  gap-6 md:justify-around">
+                    <div class="pt-12 lg:pt-24 snap-center img-box flex-shrink-0 max-w-[85vw] ">
+                        <img src="../assets/images/haus-img-1.jpg" class="w-full rounded-xl" alt="">
+                    </div>
+                    <div class="pt-12 snap-center img-box flex-shrink-0 max-w-[85vw]">
+                        <img src="../assets/images/haus-img-2.jpg" class="w-full  rounded-xl" alt="">
+                    </div>
+                    <div class="pt-12 lg:pt-24 snap-center img-box  flex-shrink-0 max-w-[85vw] ">
+                        <img src="../assets/images/haus-img-3.jpg" class="w-full rounded-xl" alt="">
+                    </div>
                 </div>
-            </div>
-            <div>
-                <h2 class="text-center text-2xl text-lime-700 medium-Italic mt-4">HEY'S THERE</h2>
-                <h2 class="text-center text-4xl text-lime-900 semi-Bold mt-1">I'm Haus</h2>
-                <p class="text-green-900 pt-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repellendus culpa error deleniti
-                    similique tenetur magnam minima molestiae eos at animi natus fugit! Earum nesciunt alias laborum
-                    tempore sunt necessitatibus!
-                </p>
+                <div class="mx-6 flex flex-col justify-center pb-12">
+                    <h2 class=" text-center text-2xl text-lime-700 medium-Italic mt-6">HEY'S THERE</h2>
+                    <h2 class=" text-center text-4xl text-lime-900 semi-Bold mt-4">I'm Haus</h2>
+                    <p class=" text-green-900 text-bold text-center text-lg mt-6 ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repellendus culpa error
+                        deleniti
+                        similique tenetur magnam minima molestiae eos at animi natus fugit! Earum nesciunt alias laborum
+                        tempore sunt necessitatibus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        suscipit obcaecati illo, quas, tempora quam fuga expedita provident deserunt odit asperiores,
+                        nobis
+                        iste nisi voluptate ut eveniet beatae error minima.
+                    </p>
 
-                <a href="" class="inline-block">READ THE WHOLE STORY</a>
+                    <a href=""
+                        class="medium-Italic tracking-widest mt-5 inline-block py-3 px-6 border border-yellow-700 mx-auto hover:bg-yellow-700 hover:opacity-60 hover:text-white text-center">READ
+                        THE WHOLE STORY</a>
 
+                </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid  bg-yellow-100/[.40]">
+        <div class="container px-6">
+            <div class="flex flex-col items-center md:flex-row gap-6">
+                <div
+                    class="w-full md:max-w-[25vw] md:w-1/3 flex-shrink-0 md:pr-6 md:border-r-2 md:border-r-yellow-700 ">
+                    <div class="img-box rounded-md py-8 ">
+                        <img src="../assets/images/get_started.jpg"
+                            class="mx-auto w-4/5 h-[85vw] drop-shadow-xl rounded-md md:w-full md:h-96" alt="">
+                    </div>
+                </div>
+                <div class="w-4/5  md:w-full  px-4">
+                    <h2 class="regular text-stone-800  text-2xl lg:text-3xl tracking-wider"> consectetur,
+                        adipisicing
+                        elit.
+                        Velit, obcaecati ratione deleniti possimus asperiores illum sed sit</h2>
+                    <span class="inline-block  w-24 bg-cyan-500/[.70] h-[0.5vh] mt-6"></span>
+                    <p class="text-gray-700/[.65] text-xl regular mt-6 md:leading-8 lg:leading-10">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius aut, impedit quos neque sit
+                        atque
+                        quasi provident omnis quibusdam velit aliquam. Possimus culpa ea quaerat? Tenetur iusto rerum
+                        nostrum.
+                    </p>
+                    <a href=""
+                        class="medium-Italic tracking-widest mt-7 inline-block py-3 px-6 border border-yellow-700 mx-auto hover:bg-yellow-700 hover:opacity-60 hover:text-white text-center">
+                        Get started</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid mt-12 md:mt-24 px-4 md:px-12">
+        <div class="container">
+            <div class="grid-cols-3 hidden md:grid">
+                <div class=" ">
+                    <div class="img-box relative">
+                        <img src="../assets/images/explore-1.jpg" class="rounded-md drop-shadow	 w-full h-48 lg:h-72 "
+                            alt="">
+                        <div
+                            class="w-full hover:animate-pulse h-full  absolute flex items-center justify-center top-0 left-0 group hover:bg-gray-800/[.8] ">
+                            <span
+                                class=" group-hover:w-full group-hover:text-center py-2 px-5 text-lime-900/[.99] tracking-widest bg-neutral-50 top-50">ARCHITECTURE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" flex flex-col justify-center items-center row-span-2 max-w-[40vw] justify-self-center">
+                    <p class="capitalize medium-Italic text-md lg:text-xl tracking-widest text-gray-800">THE Portfolio
+                    </p>
+                    <h1 class="text-3xl capitalize mt-3 lg:mt-7">
+                        <span
+                            class=" block capitalize text-center leading-[2.8rem] text-teal-900/[.95] semi-Bold lg:text-4xl lg:leading-[3.4rem]">VIEW</span>
+                        <span
+                            class="block capitalize text-center leading-[2.8rem] text-teal-900/[.95] semi-Bold lg:text-4xl lg:leading-[3.4rem]">
+                            RECENT</span>
+                        <span
+                            class="block capitalize text-center leading-[2.8rem] text-teal-900/[.95] semi-Bold lg:text-4xl lg:leading-[3.4rem]">WORK</span>
+                    </h1>
+
+                    <a href=""
+                        class="medium-Italic tracking-widest mt-7 inline-block py-3 px-6 border border-yellow-700 mx-auto hover:bg-yellow-700 hover:opacity-60 hover:text-white text-center">
+                        Explore </a>
+                </div>
+                <div class="img-box relative">
+                    <img src="../assets/images/explore-3.jpg"
+                        class="rounded-md drop-shadow	 w-full h-48 lg:h-72 self-start" alt="">
+                    <div
+                        class="w-full hover:animate-pulse h-full  absolute flex items-center justify-center top-0 left-0 group hover:bg-gray-800/[.8] ">
+                        <span
+                            class=" group-hover:w-full group-hover:text-center py-2 px-5 text-lime-900/[.99] tracking-widest bg-neutral-50 top-50">INTERRIOR</span>
+                    </div>
+                </div>
+                <div class="img-box relative mt-12">
+                    <img src="../assets/images/explore-2.jpg" class="rounded-md drop-shadow	 w-full h-48 lg:h-72 item"
+                        alt="">
+                    <div
+                        class="w-full hover:animate-pulse h-full  absolute flex items-center justify-center top-0 left-0 group hover:bg-gray-800/[.8] ">
+                        <span
+                            class=" group-hover:w-full group-hover:text-center py-2 px-5 text-lime-900/[.99] tracking-widest bg-neutral-50 top-50">PHOTOGRAPHY</span>
+                    </div>
+                </div>
+                <div class="img-box relative mt-12">
+                    <img src="../assets/images/explore-4.jpg" class="rounded-md drop-shadow	 w-full h-48 lg:h-72 item"
+                        alt="">
+                    <div
+                        class="w-full hover:animate-pulse h-full  absolute flex items-center justify-center top-0 left-0 group hover:bg-gray-800/[.8] ">
+                        <span
+                            class=" group-hover:w-full group-hover:text-center py-2 px-5 text-lime-900/[.99] tracking-widest bg-neutral-50 top-50">ANIMAL</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <p class="capitalize medium-Italic text-md  tracking-widest py-4 text-gray-800 text-center">THE Portfolio
+        </p>
+        <h1 class="text-3xl capitalize mb-4 text-teal-900/[.95] text-center">
+            VIEW RECENT WORK
+        </h1>
+        <div id="carouselExampleCaptions" class="md:hidden carousel slide relative" data-bs-ride="carousel">
+            <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner relative w-full overflow-hidden">
+                <div class="carousel-item active relative float-left w-full">
+                    <img src="../assets/images/explore-1.jpg" class="block w-full" alt="..." />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item relative float-left w-full">
+                    <img src="../assets/images/explore-2.jpg" class="block w-full" alt="..." />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item relative float-left w-full">
+                    <img src="../assets/images/explore-3.jpg" class="block w-full" alt="..." />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item relative float-left w-full">
+                    <img src="../assets/images/explore-3.jpg" class="block w-full" alt="..." />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                        <h5 class="text-xl">Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid bg-teal-50">
+        <div class="container mt-12 px-12">
+            <div class="flex flex-col items-start md:flex-row gap-6 py-12">
+                <div class="w-full md:max-w-[20vw] lg:max-w-[50vw] flex-shrink order-2 lg:pt-12 md:order-1">
+                    <h2 class="semi-Bold text-stone-800 text-3xl lg:text-4xl tracking-wider">Tools For Creatives</h2>
+                    <span class="inline-block  w-24 bg-cyan-500/[.70] h-[0.5vh] mt-6"></span>
+                    <p class="text-gray-700/[.65] text-xl regular mt-6 md:leading-7 lg:leading-7 xl:leading-10">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius aut, <span
+                            class="hidden lg:inline">
+                            impedit quos neque sit
+                            atque quasi provident omnis quibusdam velit aliquam. Possimus culpa ea quaerat? Tenetur
+                            iusto
+                            rerum
+                            nostrum.</span>
+                    </p>
+                    <a href=""
+                        class="medium-Italic tracking-widest mt-7 inline-block py-3 px-6 border border-yellow-700 mx-auto hover:bg-yellow-700 hover:opacity-60 hover:text-white text-center">
+                        Go to the Blog</a>
+                </div>
+                <div
+                    class="w-full h-full md:max-w-[80vw] lg:max-w-[50vw]  md:border-l-2 md:border-l-yellow-700 order-1 md:order-2 flex justify-between gap-4 md:gap-6 py-8 px-2 md:px-12 pt-12">
+                    <div class="imgbox w-full md:w-1/2 ">
+                        <img src="../assets/images/creative-tool1.jpg"
+                            class="mx-auto rounded-md drop-shadow-xl hover:-translate-y-4" alt="">
+                    </div>
+                    <div class="imgbox w-full md:w-1/2 ">
+                        <img src="../assets/images/creative-tool2.jpg"
+                            class="mx-auto rounded-md drop-shadow-xl hover:-translate-y-4" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  mb-24">
+        <div class="container mt-12 px-12">
+            <div class="snap-x mandatory flex overflow-y-auto lg:justify-around items-start gap-6">
+                <div class="pt-12 lg:pt-24  snap-center flex-shrink-0 w-72 ">
+                    <div class=" relative group">
+                        <p
+                            class="border medium-Italic text-gray-700 text-center text-lg leading-7 px-7 pt-3 pb-24 group-hover:bg-cyan-200/[.33]">
+                            Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.
+                            Repellendus perspiciatis dicta aperiam voluptate debitis dolores facere aliquam nostrum
+                            quis. Provident, asperiores eius repudiandae voluptatum eum quis est excepturi sunt
+                            corrupti.</p>
+                        <div class="flex justify-center items-center ">
+                            <img src="../assets/images/client-1.png"
+                                class="absolute left-50 bottom-50 translate-y-50 translate-x-50 p-1 rounded-full border border-yellow-700"
+                                alt="">
+
+                        </div>
+                        <p class="medium-Italic text-2xl text-center mt-16 text-gray-800">kelly piterson</p>
+                    </div>
+
+                </div>
+                <div class="pt-12 lg:pt-24  snap-center flex-shrink-0 w-72 ">
+                    <div class="relative group">
+                        <p
+                            class="border medium-Italic text-gray-700 text-center text-lg leading-7 pt-3 pb-24 px-7  group-hover:bg-cyan-200/[.33]">
+                            Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.
+                            Repellendus perspiciatis dicta aperiam voluptate debitis dolores facere aliquam nostrum
+                            quis. Provident, asperiores eius repudiandae voluptatum eum quis est excepturi sunt
+                            corrupti.</p>
+                        <div class="flex justify-center items-center">
+                            <img src="../assets/images/client-2.png"
+                                class="absolute left-50 bottom-50 translate-y-50 translate-x-50 p-1 rounded-full border border-yellow-700"
+                                alt="">
+
+                        </div>
+                        <p class="medium-Italic text-2xl text-center mt-16 text-gray-800">Michel willy</p>
+
+                    </div>
+
+                </div>
+                <div class="pt-12 lg:pt-24  snap-center flex-shrink-0 w-72 ">
+                    <div class=" relative group">
+                        <p
+                            class="border medium-Italic text-gray-700 text-center text-lg leading-7 px-7 pt-3 pb-24 group-hover:bg-cyan-200/[.33]">
+                            Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.
+                            Repellendus perspiciatis dicta aperiam voluptate debitis dolores facere aliquam nostrum
+                            quis. Provident, asperiores eius repudiandae voluptatum eum quis est excepturi sunt
+                            corrupti.</p>
+                        <div class="flex justify-center items-center ">
+                            <img src="../assets/images/client-3.png"
+                                class="absolute left-50 bottom-50 translate-y-50 translate-x-50 p-1 rounded-full border border-yellow-700"
+                                alt="">
+                        </div>
+
+                        <p class="medium-Italic text-2xl text-center mt-16 text-gray-800">JOHN DOE</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- two scrtion will take place here -->
+    <!-- <div class="container-fluid  mb-24">
+        
+    </div> -->
+    <div class="container-fluid">
+        <div class="container-fluid pb-12 bg-teal-50">
+            <div class="container my-12 ">
+                <h2 class="text-3xl text-center mt-12 medium-bold py-12"> Let's Collaborate Together</h2>
+                <div class="columns-2 md:columns-4 px-8">
+                    <p class=" md:mx-6 ">1Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, possimus, eum reiciendis
+                        tempore blanditiis quibusdam laborum tenetur aut iure provident quia debitis minus animi! Itaque
+                        quos ad at eum delectus?</p>
+                    <p class="mt-12 md:mt-0 md:mx-6 ">2Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Perferendis, possimus, eum reiciendis
+                        tempore blanditiis quibusdam laborum tenetur aut iure provident quia debitis minus animi! Itaque
+                        quos ad at eum delectus?</p>
+                    <p class=" md:mx-6">3Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis, possimus, eum reiciendis
+                        tempore blanditiis quibusdam laborum tenetur aut iure provident quia debitis minus animi! Itaque
+                        quos ad at eum delectus?</p>
+                    <p class="mt-12 md:mt-0  md:mx-6">4Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Perferendis, possimus, eum reiciendis
+                        tempore blanditiis quibusdam laborum tenetur aut iure provident quia debitis minus animi! Itaque
+                        quos ad at eum delectus?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container pb-12 px-4 ">
+            <h2 class="text-green-900 semi-bold text-3xl text-center my-12">Recent Posts</h2>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+                <div class="border border-yellow-700/[.55] rounded-md group">
+                    <div class="img-box order-1">
+                        <img src="../assets/images/posts.jpg" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="content-area order-2 px-3 flex flex-col items-center justify-center text-center  group-hover:bg-teal-50">
+                        <p class="regular text-gray-800 pt-3">PHOTO</p>
+                        <h2 class="text-lg my-2"> Little Known Ways To Rid YourSelf</h2>
+                        <p class="regular text-gray-800">June 20,2022</p>
+                        <p class="mt-4 border-t border-t-yellow-700/[.55] pt-3"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. At
+                            numquam. Aut impedit sed illo minima molestias.</p>
+                        <a href=""
+                            class="inline-block py-2 px-8 my-5 rounded-md  border border-yellow-700/[.55] hover:bg-yellow-700/[.55] hover:text-gray-50">
+                            Read More</a>
+                    </div>
+                </div>
+                <div class="border border-yellow-700/[.55] rounded-md group">
+
+                    <div
+                        class="content-area order-2 px-3 flex flex-col items-center justify-center text-center   group-hover:bg-teal-50">
+                        <p class="regular text-gray-800 pt-3">PHOTO</p>
+                        <h2 class="text-lg my-2"> Little Known Ways To Rid YourSelf</h2>
+                        <p class="regular text-gray-800">June 20,2022</p>
+                        <p class="mt-4 border-t border-t-yellow-700/[.55] pt-3"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. At
+                            numquam. Aut impedit sed illo minima molestias.</p>
+                        <a href=""
+                            class="inline-block py-2 px-8 my-5 rounded-md  border border-yellow-700/[.55] hover:bg-yellow-700/[.55] hover:text-gray-50">
+                            Read More</a>
+                    </div>
+                    <div class="img-box order-1">
+                        <img src="../assets/images/posts.jpg" class="w-full" alt="">
+                    </div>
+                </div>
+                <div class="border border-yellow-700/[.55] rounded-md group">
+                    <div class="img-box order-1">
+                        <img src="../assets/images/posts.jpg" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="content-area order-2 px-3 flex flex-col items-center justify-center text-center group-hover:bg-teal-50">
+                        <p class="regular text-gray-800 pt-3">PHOTO</p>
+                        <h2 class="text-lg my-2"> Little Known Ways To Rid YourSelf</h2>
+                        <p class="regular text-gray-800">June 20,2022</p>
+                        <p class="mt-4 border-t border-t-yellow-700/[.55] pt-3"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. At
+                            numquam. Aut impedit sed illo minima molestias.</p>
+                        <a href=""
+                            class="inline-block py-2 px-8 my-5 rounded-md  border border-yellow-700/[.55] hover:bg-yellow-700/[.55] hover:text-gray-50">
+                            Read More</a>
+                    </div>
+                </div>
+                <div class="border border-yellow-700/[.55] rounded-md group">
+                    <div class="img-box order-1">
+                        <img src="../assets/images/posts.jpg" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="content-area order-2 px-3 flex flex-col items-center justify-center text-center group-hover:bg-teal-50">
+                        <p class="regular text-gray-800 pt-3">PHOTO</p>
+                        <h2 class="text-lg my-2"> Little Known Ways To Rid YourSelf</h2>
+                        <p class="regular text-gray-800">June 20,2022</p>
+                        <p class="mt-4 border-t border-t-yellow-700/[.55] pt-3"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. At
+                            numquam. Aut impedit sed illo minima molestias.</p>
+                        <a href=""
+                            class="inline-block py-2 px-8 my-5 rounded-md  border border-yellow-700/[.55] hover:bg-yellow-700/[.55] hover:text-gray-50">
+                            Read More</a>
+                    </div>
+                </div>
+                <div class="border border-yellow-700/[.55] rounded-md group">
+                    <div class="img-box order-1">
+                        <img src="../assets/images/posts.jpg" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="content-area order-2 px-3 flex flex-col items-center justify-center text-center group-hover:bg-teal-50">
+                        <p class="regular text-gray-800 pt-3">PHOTO</p>
+                        <h2 class="text-lg my-2"> Little Known Ways To Rid YourSelf</h2>
+                        <p class="regular text-gray-800">June 20,2022</p>
+                        <p class="mt-4 border-t border-t-yellow-700/[.55] pt-3"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. At
+                            numquam. Aut impedit sed illo minima molestias.</p>
+                        <a href=""
+                            class="inline-block py-2 px-8 my-5 rounded-md  border border-yellow-700/[.55] hover:bg-yellow-700/[.55] hover:text-gray-50">
+                            Read More</a>
+                    </div>
+                </div>
+                <div class="border border-yellow-700/[.55] rounded-md group">
+                    <div class="img-box order-1">
+                        <img src="../assets/images/posts.jpg" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="content-area order-2 px-3 flex flex-col items-center justify-center text-center  group-hover:bg-teal-50">
+                        <p class="regular text-gray-800 pt-3">PHOTO</p>
+                        <h2 class="text-lg my-2"> Little Known Ways To Rid YourSelf</h2>
+                        <p class="regular text-gray-800">June 20,2022</p>
+                        <p class="mt-4 border-t border-t-yellow-700/[.55] pt-3"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. At
+                            numquam. Aut impedit sed illo minima molestias.</p>
+                        <a href=""
+                            class="inline-block py-2 px-8 my-5 rounded-md  border border-yellow-700/[.55] hover:bg-yellow-700/[.55] hover:text-gray-50">
+                            Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-teal-100/[.65]">
+        <div class="container pb-12 px-4">
+            <h2 class="text-green-900 semi-bold text-3xl text-center py-12">Contact us</h2>
+            <div class="flex justify-center gap-24 items-start">
+                <form action="" class="flex flex-col">
+                    <input type="text" placeholder="First Name"
+                        class="border py-3 pl-4 mt-4 rounded-md border-gray-400 placeholder:text-lg bg-transparent hover:border-2">
+                    <input type="text" placeholder="Last Name"
+                        class="border py-3 pl-4 mt-4 rounded-md border-gray-400 placeholder:text-lg bg-transparent hover:border-2">
+                    <input type="text" placeholder="Last Name"
+                        class="border py-3 pl-4 mt-4 rounded-md border-gray-400 placeholder:text-lg bg-transparent hover:border-2">
+                    <input type="text" placeholder="Email"
+                        class="border py-3 pl-4 mt-4 rounded-md border-gray-400 placeholder:text-lg bg-transparent hover:border-2">
+                    <textarea name="" id="" placeholder="Comments"
+                        class="border py-3 pl-4 mt-4 rounded-md border-gray-400 placeholder:text-lg bg-transparent hover:border-2 "
+                        cols="30" rows="5"></textarea>
+
+                </form>
+                <div
+                    class="imgupload mt-6 border-dashed border-2 border-yellow-900  h-96 border flex flex-col items-center justify-center">
+
+                    <div class="text-center">
+                        <form action="">
+                            <h3 class="bold text-2xl text-gray-600">Drop Your File Here</h3>
+                            <span class="block text-gray-700 my-3">OR</span>
+                            <input type="file"
+                                class="pl-16 file:border file:rounded-md file:border-teal-500  file:p-2 file:bg-transparent file:text-yellow-900">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 </html>

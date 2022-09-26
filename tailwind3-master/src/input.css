@@ -7,10 +7,6 @@
        font-family: myFirstFont;
        src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
 } */
-@font-face {
-       font-family: SemiBold;
-       src: url(../assets/fonts/PlayfairDisplay-SemiBold.ttf);
-}
 
 @font-face {
        font-family: medium-Bold;
@@ -35,7 +31,30 @@
 .semi-Bold {
        font-family: semi-Bold;
 }
-
+.medium-Bold {
+       font-family: medium-Bold;
+}
 .medium-Italic {
        font-family: medium-Italic;
 }
+.regular {
+       font-family: Regular;
+}
+
+/* scrollbar css */
+/* width */
+::-webkit-scrollbar {
+       width: 10px;
+     }
+     
+     /* Track */
+     ::-webkit-scrollbar-track {
+       background: #ffffff00;
+     }
+     
+     /* Handle */
+     ::-webkit-scrollbar-thumb {
+       background: rgba(255, 255, 255, 0);
+     }
+     
+     /* Handle on hover */
