@@ -58,3 +58,10 @@
      }
      
      /* Handle on hover */
+.nav-links .nav-items > ul{
+       display: none;
+}
+.nav-links .nav-items:hover > ul{
+       display: block;
+       
+}
