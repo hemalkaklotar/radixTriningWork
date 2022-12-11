@@ -1,0 +1,11 @@
+img{
+    width:300px;
+    height: 300px;
+}
+.stackimage{
+    width:120px;
+    height: 120px;
+}
+.flex-image{
+    display: flex;
+    }
